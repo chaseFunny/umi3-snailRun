@@ -41,13 +41,7 @@
     "tsc": "tsc --noEmit",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "**/*.less": "stylelint --syntax less",
-    "**/*.{js,jsx,ts,tsx}": "npm run lint-staged:js",
-    "**/*.{js,jsx,tsx,ts,less,md,json}": [
-      "prettier --write"
-    ]
-  },
+
   "browserslist": [
     "> 1%",
     "last 2 versions",
@@ -57,6 +51,7 @@
     "@ant-design/icons": "^4.7.0",
     "@ant-design/pro-components": "1.1.1",
     "@umijs/route-utils": "^2.0.0",
+    "@umijs/ssr-darkreader": "^4.9.45",
     "antd": "^4.20.0",
     "classnames": "^2.3.0",
     "lodash": "^4.17.0",
